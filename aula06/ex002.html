@@ -17,19 +17,18 @@
 
         h1 {
             color:rgba(233, 209, 128, 0.938);
-        }
+        } /*Comentário em CSS*/
     </style>
 
 </head>
 
 <body>
-    <h1>Olá, mundo!</h1>
+    <h1>Olá, mundo!</h1> <!-- Isso é um comentário em HTML-->
     <p>Já me livrei da maldição!!</p>
 
-    <script>
-        window.alert('Minha Primeira Mensagem') // Caixa de alerta de texto com informação.
-        window.confirm('Está gostando do JS?') // Caixa com botões de OK e CANCELAR.
-        window.prompt('Qual é o seu nome?') // Caixa para perguntar o nome e gerar interatividade.
+    <script>        
+       var nome = window.prompt('Qual é o seu nome?') // Caixa para perguntar o nome e gerar interatividade.
+       window.alert ('É um grande prazer em te conhecer, ' + nome + '!') //Concatenação
     </script>
 
 </body>
