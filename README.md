@@ -39,4 +39,16 @@ n1.toFixed.replace('.' , ',') = O comando (replace) é a chave para a troca de s
 n1.toLocaleString('pt-BR' , {style: 'currency', currency: 'BRL' ou currency: 'USD'}) = toLocaleString está localizando a string em português BR. Já com o style: 'currency' em string ativo está fazendo menção a 'dinheiro' valor monetário, repetindo novamente a palavra ele recebe como real(R$). - Está sintaxe é especial pois ela também é um objeto de JavaScript.
 
 
+#Operadores
+
+// Aritméticos
+
+// 5 + 2 = 7
+// 5 - 2 = 3
+// 5 * 2 = 10
+// 5 / 2 = 2.5
+// 5 % 2 = 1
+// 5 ** 2 = 25 - Adicionado novo comando de operador (Potência) 
+
+
 
