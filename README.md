@@ -40,7 +40,22 @@ n1.toLocaleString('pt-BR' , {style: 'currency', currency: 'BRL' ou currency: 'US
 
 <!-- Operadores 1 -->
 
+<<<<<<< HEAD
+#Operadores
+
+// Aritméticos
+
+// 5 + 2 = 7
+// 5 - 2 = 3
+// 5 * 2 = 10
+// 5 / 2 = 2.5
+// 5 % 2 = 1
+// 5 ** 2 = 25 - Adicionado novo comando de operador (Potência) 
+
+
+=======
 # Ordem de Precedência.
+>>>>>>> cbba4efd639526714097c79294d264d0cc045f61
 
 // ()
 // ** 
